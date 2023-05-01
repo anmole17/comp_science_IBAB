@@ -1,0 +1,5 @@
+1. Write a program in C to implement a stack of numbers. Set max size of stack as 10. Define two methods push and pop. push takes one integer that would be pushed onto the stack. pop will pop the top element. Display when u pop an element.
+
+2. For the same set of values in(1) implement a queue and handle insert delete operations.
+
+3. Improvise (1) so that pop function takes a parameter ( which position element to be popped). Then achieve the same with relevant number of pop and push calls. If required write an extra method to handle the requirements

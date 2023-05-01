@@ -1,0 +1,6 @@
+1. Write a program, in which you have a linked list of 5 nodes. Give an option to print any node value (every node has one  int value). Go to that specific node (traverse) and print that specific int value.
+
+2. Have two linked lists of 3 nodes each. Every node has one int value.
+Print both the linked lists. Now concat the lists (add second to end of first), creating a new Linked list with 6 nodes. Traverse this new list and print the value at each node.
+
+3. Have a linked list of 10 nodes. Each node has an int value. Search for a value in the linked list and print "Present" if you find it. This value to be searched, is entered by the user. 

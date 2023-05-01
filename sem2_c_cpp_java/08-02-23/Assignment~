@@ -1,0 +1,6 @@
+1. Write a program that creates a Linked List of 8 nodes.
+Print the node values in reverse order..
+
+2. Write a program that creates a Linked List of 10 nodes.
+Split this linked list into 2 linked lists each with 5 nodes.
+Print all the 3 linked lists.

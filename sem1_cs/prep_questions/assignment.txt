@@ -1,0 +1,49 @@
+Assignments on C:
+1. Write a program to compare two strings and print the common letters in both. It has to be
+case sensitive.
+2. Improvise (1) so that it works without case sensitivity.
+3. Write a C program that calculates the length of a string without using any library from string.h
+4. Write a C program that takes 3 strings as parameters, concatenate them all and print the final
+string. Try once using strcat() of string.h and once without the help of library.
+5. Write a C program to reverse a string and print both original and reversed strings.
+6. Write a C program to write at least 3 lines of text into a text file. Next, read from the same file
+and check for the presence of vowels (a,e,i,o,u ) and (A,E,I,O,U). If present print the vowel followed
+by "present" mesg.
+7. Improvise(6) and print the position at which the vowel is present in the file.
+8. Write a C program that writes at least 4 lines of text into 2 different text files. Now read from these
+two files, merge the content and display the same.
+9. Improvise (8) and write the merged content onto another text file.
+10. Write a C program that takes a string and creates a palindrome. 
+Ex: If you entered "Hello" then it should print "HellolleH"
+
+Assignments on Python
+Try all the questions above from 1 - 5, 10. File related Qs can be worked on , after file handling session.
+Also try the below questions:
+1. Write a python code to check if a given number is prime number or not.
+2. Write a python code to compare two lists of numbers. If a common element is found, then print that
+element and its position in both the lists.
+3. Write a python code in which a list contains 3 other lists. Each of the lists can have data of different 
+types.
+Ex : the final list should look like 
+[ [1, 10, "hi"] , ["yes",22,100] , [4,8,12] ]
+4. Sort a list of numbers in ascending and descending orders.
+5. Write a script that  converts a decimal (base 10) number to a binary number. Print both the numbers.
+6. Write a script that reverses two tuples and then merges the same. Each tuple has at least 8 integers.
+For Ex: tuple1 = (1,2,3,4,5,6,7,8) and tuple 2 = (10,20,30,40,50,60,70,80) .
+After reversing :
+tuple 1 = (8,7,6,5,4,3,2,1) and tuple 2=(80,70,60,50,40,30,20,10).
+FInal merged tuple in this case is (8,7,6,5,4,3,2,1,80,70,60,50,40,30,20,10)
+7. Write a script that takes a string and splits it into 2 strings based on a cut off point.
+Ex: If entered string is Bangalore, and cut off point is say 3, then the resultant strings are:
+Ban and galore.
+8. Write a script that takes a string and gives the weight of the string.
+The weight of string = Sum of weight of each individual character. The weight of each character can be set
+by you. It should be some positive integer number.
+Ex: Suppose you fixed a=1, b=2, c=3 then the weight of string abc = 1+2+3 =6.
+
+Assignments on Bash:
+1. Take 3 numbers as input and calculate the sum, product of these and print the result.
+2. Write a script that prints all those numbers that start with a '1',  in a list of numbers from 1 - 100.
+3. Write a script that prints the Fibonacci series for n terms. You need to give 'n' as input.
+4. Write a script that can print all even numbers between 1- 200.
+5. Write a script that takes two numbers, and prints the common digits in the numbers.

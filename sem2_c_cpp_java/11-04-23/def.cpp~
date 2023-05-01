@@ -1,0 +1,6 @@
+#include<iostream>
+#define printok cout<<"ok"<<endl;
+using namespace std;
+int main(){
+printok
+}

@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+namespace ns1
+{
+	void f1()
+	{
+		cout << "HELLO" << endl;
+	}
+};
+
+namespace ns2
+{
+	void f1()
+	{
+		cout << "Hi" << endl;
+	}
+};
+
+using namespace ns1;
+int main()
+{
+	f1();
+	ns2::f1();
+	f1();
+}

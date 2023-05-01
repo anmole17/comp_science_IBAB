@@ -1,0 +1,11 @@
+1. Write a program to read values into an integer array of  4 x 4. 
+display all the values.
+
+2. Write a program to read integer values into two different arrays
+arr1 and arr2 . 
+Print all those values that are common in both the arrays. 
+You decide on size of arrays.
+
+3. Write a program to read integer values into two different arrays
+arr1 and arr2 . Now, swap values between the arrays and print the
+arrays.

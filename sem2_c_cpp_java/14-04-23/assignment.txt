@@ -1,0 +1,18 @@
+1. Write a program in CPP that contains 4 unrelated classes.
+Lets call them as A,B,C and D.
+D will have a method named "srch" standing for "search". When you run it, it asks the user, to enter any
+integer number. Now, it searches if this number is part of D and also if its part of A,B,C. If the number is
+found as part of A / B /C /D, it will print that the number is present and also the Class in which its present.
+It can be present in only one Class or in All classes. It may not be present also in any class, in which case
+the method will print "Not Found". 
+NOTE: This is a sort of open ended Q. Lots of decision making needs to be done. This is where your 
+prowess should help you. I would appreciate if each one of you work in your own individual way and achieve
+the results. Note down all your assumptions and decision making points. 
+
+2. Write a program in Java that does the following:
+                - It has 3 classes namely A, B , and C.
+                - An object of class C, will take a "String" as input from user and passes the same to an object of A and B
+                - A's object will take the string , reverses it and somehow sends this reversed string to object of B.
+                - B's object will take the string from A , concatenates it will the one received from C, and displays the result.
+Note: In this Question too, you need to take a call about Class relationship , parameter passing etc. Make sure you
+are clear with the design and note down all the points that are assumed and or decided upon.

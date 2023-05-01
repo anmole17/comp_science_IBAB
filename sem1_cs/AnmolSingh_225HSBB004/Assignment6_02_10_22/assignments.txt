@@ -1,0 +1,6 @@
+1. Write a program in which you have a struct that has two elements , one integer and one string. Let a1 and a2 be two instances (implementation) of this struct. Store some values for the int and string elements of both variables a1,a2 and display the same.
+
+2. Write a program to store information about 10 students. Use a struct  to hold the information. The  struct  should contain name,id,age. (There should be 10 instances/implementation of the struct , one for each student).
+
+3. Write a program that consists of two integer arrays . Merge both arrays to get a final array (final array should contain elements from first array followed by elements of second array). 
+

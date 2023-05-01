@@ -1,0 +1,21 @@
+/*
+how to reuse features of final class
+*/
+
+public final class f{
+
+protected int x=10;
+
+public void f(){
+	System.out.println(x);
+}
+
+
+};
+
+class C{
+public static void main(String args[]){
+	f();
+		
+}
+}

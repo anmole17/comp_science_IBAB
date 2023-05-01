@@ -1,0 +1,10 @@
+1. Write a program in CPP, to calculate square root and cube root of a number. Use the library methods
+sqrt(number), cbrt(number) which will return the square root and cube root respectively. Include cmath
+header before using libraries. 
+
+2. Work on (1) without using libraries.
+
+3. Try (1) in Java . To do this, first import java.lang.Math. (might work without importing too..but better import.)
+Then use Math.sqrt(number) and Math.cbrt(number) to calculate square root and cube root respectively.
+
+4. Create a java library, which has a class with 4 methods to calculate square,cube,square root and cube root. No built in libraries should be used to achieve these .

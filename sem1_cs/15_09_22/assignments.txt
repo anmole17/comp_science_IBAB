@@ -1,0 +1,18 @@
+1. Write a program which takes 2 integer parameters  say x and y, and calculates x/y (division).
+print the results. 
+
+2. Improvise 1 , where you take one parameter as int and another as float. Calculate x/y and
+print the results. (Either numerator or denominator can be a float).
+
+3. Improvise 2, where you store the result of division in a variable and display the same.
+
+4. Write a program which takes one character and prints the same (use %c format specifier).
+Also try by using %d format specifier. Note down the findings. Keep an eye on those numbers.
+
+5. Write a program which has two functions namely f1() and f2(). 
+f1() asks user to give an int and a float number as inputs, then adds both and displays result.
+f2() asks user to enter two float numbers, calculates product of these numbers and prints the
+result.
+
+6. Write a program, where main sends two integer numbers as parameters to function f1(). 
+f1() returns back the largest of the two numbers , to main(), which will display the result.

@@ -1,0 +1,4 @@
+1. Write a program in which main() will create a variable i  and stores an integer value. Now using call by reference it sends address of I to a method named cube. Cube will fetch the value, calculates cube, and writes this back to the variable space. Cube result is printed by main.
+
+2. Write a program in which main() creates two variable a1,a2 of int and float type respectively. It calls add and mult functions and passes a1 ,a2 to add and mult using call by reference.
+Add and mult does addition and multiplication of a1,a2 and results of these are printed by main().

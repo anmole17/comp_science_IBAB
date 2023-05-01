@@ -1,0 +1,61 @@
+/*
+3. Have a linked list of 10 nodes. Each node has an int value. Search for a value in the linked list and print "Present" if you find it. This value to be searched, is entered by the user. 
+*/
+
+#include<stdlib.h>
+#include<stdio.h>
+
+struct node{
+	int val;
+	struct node *next;
+};
+
+struct node *create_node( struct node *prev, int *val){
+	struct node *new;	
+	new=malloc(sizeof(struct node));
+	prev->next=new;
+	new->val=*val;
+	new->next=NULL;
+	prev=new;
+	*val=*val+2;
+	return prev;
+}
+
+int traverse(struct node *start, int value){
+	int i=1;
+	while((start->next)!=NULL)
+	{	if(start->val==value){
+		printf("Present at node %d is %d\n",i,start->val);
+		return(0);
+		}start=start->next;
+		i++;
+	}
+	if(start->val==value){
+		printf("Present at node %d is %d\n",i,start->val);
+	}
+	else
+		printf("Value absent\n");
+	return(0);
+
+}
+int main(){
+	struct node *list1,*list2,*tem,*bk;
+	int val1=1;
+	int i,value;
+	list1=malloc(sizeof(struct node));
+	bk=list1;
+	tem=list1; /* this is useful as when we traverse with tem, first node address is still saved as bk*/
+	list1->val=val1;
+	val1+=2;
+	list1->next=NULL;
+	
+	for(i=0; i<9; i++)
+	{
+		list1=create_node(list1, &val1);
+	}
+	printf("There are 10 nodes in the linked list, they have 10 integers stored. Search for a value.\n");
+	scanf("%d", &value);
+	traverse(tem,value);
+
+	return(0);	
+}

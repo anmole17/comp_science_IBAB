@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+
+char *k="ok";
+#define ten k 
+
+int main()
+{
+	printf("%s \n",ten);
+	ten="IBAB";
+	printf("%s \n",ten);
+}

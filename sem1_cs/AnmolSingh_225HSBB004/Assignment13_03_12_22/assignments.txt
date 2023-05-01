@@ -1,0 +1,7 @@
+1. Write a program to count the number of words in a file.
+
+2. Improvise(1) to count the number of characters in a file.
+
+3. Write a program to find a word in the file and replace it with another word
+
+4. Write a program to reverse the content of a file.line by line

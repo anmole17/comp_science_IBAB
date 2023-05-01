@@ -1,0 +1,36 @@
+/*
+Write a CPP program that has a class which is equipped with a constructor.
+The class consists two integer and one float numbers. Initialise all these numbers
+and print the values inside the constructor itself. Create an object and note down
+the observations.
+*/
+
+#include<iostream>
+
+using namespace std;
+
+class CLS{
+	int i,j;
+	float k;
+	
+	public:
+	
+	void CLS()
+	{
+		i=10;
+		j=20;
+		k=30.43;
+		cout<<"The initiated data is: "<<i<<" "<<j<<" "<<k<<endl;
+
+	}
+
+
+};
+
+int main(){
+
+	class CLS c1;
+	
+	return(0);
+	
+}

@@ -1,0 +1,11 @@
+1. Write a program to create text file and write your name into it.
+2. Write a program to read from the file you created in (1) above, and display
+the content.
+3. Write a program to write 1 line of text into a file. In the same program make
+provision to read character by character from that file and print it vertically.
+4. Write a program to write at least 10 lines of text onto a file. In the same
+program make provision to read only those words at even positions and print onto the screen.
+For Ex: IF the content of file is 
+Hello How Are you? Where are you? I am fine
+Then it should print
+How you? are I fine

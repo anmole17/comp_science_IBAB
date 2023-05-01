@@ -1,0 +1,7 @@
+1. Write a C program, that takes your name as input (you will type it using keyboard) and prints
+Hello YourName.  (YourName is the name u entered as input).
+
+2. Write a C program that takes two integer inputs (you will enter these numbers using keyboard),
+and calculates the sum, difference and product and prints all the three results.
+
+3. Write a C program that takes an integer as input and prints its cube. 

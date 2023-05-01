@@ -1,0 +1,11 @@
+1. Write a CPP program in which you have 2 classes, namely Add and Diff.
+Add has a method named void adding() and Diff has a method named void difference().
+adding() will ask user to enter 2 integer values and finds the sum of the same and prints result.
+difference() will ask user to enter 2 integer values and finds the difference and prints the same.
+Derive Diff class from Add class. Create object of DIff and invoke both adding() and difference() 
+methods.
+
+2. Implement(1) in java.
+3. Improvise(1) by taking inputs in main() and passing the same to adding() and difference().
+
+4. Implement (3) in Java

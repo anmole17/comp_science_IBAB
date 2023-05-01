@@ -1,0 +1,12 @@
+1. Write a CPP program, that takes 2 integer numbers as input from user, calculates sum and difference , and prints the results.
+
+2. Write a CPP program that takes 3 integer numbers and prints which is the
+smallest number and the largest number.
+
+3. Write a CPP program that has a class which is equipped with a constructor.
+The class consists two integer and one float numbers. Initialise all these numbers
+and print the values inside the constructor itself. Create an object and note down
+the observations.
+
+4.. Improvise (3) and print the values using another function inside the same class.
+This means constructor initialises values and another function prints the values.

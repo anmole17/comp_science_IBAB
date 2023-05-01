@@ -1,0 +1,7 @@
+Java
+1. Write a program in which you compare two strings and print if they are same. One String belongs to an abstract class and another belongs to a normal class. Take string inputs from user
+
+2. Write a program to create an object of a class, in another class. Then pass this object onto another object of a third class. Third class object will invoke a method of the passed object. Design your own method 
+Ex: Let there be a class A with some method.
+There is another class B, which is designed in a way that using a method of B's object, you will create Class A object.
+Then there is an object of Class C, which has a method that receives object of A, from object of B and invokes method of A's object.

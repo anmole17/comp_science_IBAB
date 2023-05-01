@@ -1,0 +1,34 @@
+1. Write a Program in C++ that does the following:
+- Contain 4 classes, namely master, squr, avg , ordr.
+- master class in a way plays the role of a master or controller.
+- First, a method in master will take an integer number input from the user.
+- This number is sent to the class squr by master.
+- squr will use one of its methods to calculate “square” of the number and returns
+the result to master.
+- master will then send this result from squr, along with 2 more integer numbers to
+the “avg” class.
+- avg class will take these 3 numbers, calculates the average and returns the same to
+master.
+- Now master will take the result of avg, and along with the same will send another 5
+integer numbers to ordr class.
+- ordr class will take all the numbers, calculates largest and smallest of these numbers,
+and sends back the same to master.
+- master also displays the result(s) of avg, squr and ordr.
+NOTE: Use any number of methods in any of the classes. Use any technique to return
+Values from any method(s). Make sure mandates not compromised.
+2. Write a Program in C to implement a doubly linked list with the following features/clauses:
+- DLL contains 16 nodes, each with an integer value as data
+- insertion and deletion of nodes should be allowed with the following protocol
+- any insertion can happen only at position 4 or position 8.
+For every data that needs to be inserted, user should also input its position (4 or 8)
+- After every insertion operation, the whole DLL should be displayed.
+- Deletion of node can happen only at position 3. This means, once the deletion
+option is selected by the user, the node at position 3 should be the one deleted.
+- After every deletion operation entire DLL should be displayed.
+3. Write a program in java that showcases:
+- String Pool
+- Abstract class
+- Wrapper class “Integer”
+- Working of Constructor
+A single program should show all the above features. The output should convince us of the
+working of these concepts.

@@ -1,0 +1,8 @@
+1. Write a C program that has 3 functions, namely f1,f2,f3.
+
+f2 will add 2 numbers and f3 will multiply two numbers.
+f1 will invoke both f2 and f3, using function pointer(s) supplied by main.
+main will also send two integer parameters to f1. Display the results of 
+both addition and multiplication, in main().
+
+2. Improvise (1), where f2 works with 2 parameters and f3 with 3 parameters.

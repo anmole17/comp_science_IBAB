@@ -1,0 +1,30 @@
+CPP:
+1. Write a program in which you have 2 abstract classes .  first abstract class has methods add() and cnt() and second abstract class
+has methods sub() and rev().  One class derives from first abstract class and One class derives from second abstract class.
+add() is a method that takes two parameters and adds the same and prints the result. rev() takes an integer of more than 2 digits
+ and reverses the same and prints. sub() takes two parameters and prints their difference and cnt() is a method that takes one number
+with more than 2 digits, calculates its length and prints the same. 
+
+2. Improvise(1) and another method to first abstract class (with definition) to take three numbers and add the same. 
+Use this function in the first derived class along with other two methods you would have implemented in first question.
+
+3. Improvise(1) wherein the second derived class can work /  utilise all 4 methods of both abstract classes, so that creating
+object of second derived class will help us to  use all the methods of abstract 1 and 2.
+
+AdvC:
+1. Create a DLL that has one integer and one character data at each node. Create atleast 8 nodes, traverse and print all the data
+at each node.
+
+2. Improvise(1) where in while traversing you will skip a node . For Ex: Once you start from 1st node, you will print data of 1st node,
+then 3rd node, then 5th node and finally 7th node.
+
+3. Improvise(1) to add a node to the DLL. Protocol is : give an option to add a node to the beginning of the list or to the end of the list.
+After every addition, traverse and print the values to validate the addition of node.
+
+Java:
+1. Write a Java program in which there is a class named CAR. There are many other classes too namely WHEEL, STEERING,GEAR,SEAT etc
+The protocol is once you create an object of CAR, the objects of all the other classes should be automatically created to bring in more sense to
+CAR  object. Use your creativity to somehow depict this on screen, wherein when we run the code, we get a feeling that "A CAR IS CREATED".
+
+2. Improvise (1) to allow creation of different types of CARS. 
+NOTE: All data and methods are your choice but the overall feel of creating a car should be good.

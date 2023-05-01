@@ -1,0 +1,16 @@
+Assignments:
+1. Write a CPP program, where you have 2 data items (both int) and one method in a class.
+Do not give any access specifier for both data and method. Now write main() and create
+an object and try to initialise the data directly and also try to invoke the method directly.
+Analyse this and note down findings.
+
+2. Write a CPP program, where you have 2 data items (int, float) and use public access
+specifier for data. Now under same public specifier, write a method f1() that initialises
+the variables and prints the same. In main(), create the object and do direct initialisation
+of data again and also invoke the method. Note down the observations.
+
+3. Write a CPP program, where you have 3 data items (int, float, char) and use private access
+specifier for data. Then use public access specifier and define 2 methods f1() and f2().
+f1() initialised int,float vals and adds them and prints the result. f2() initialises the character
+value and prints the same. Now create object and invoke f1() and f2(). Note down the 
+observations.

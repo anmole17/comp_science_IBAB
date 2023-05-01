@@ -1,0 +1,11 @@
+1. Write a program to pass your name as parameter to the application. Print the same .
+
+2. Improvise (1) and print "Hello Your_Name".
+
+3. Write a program to pass an integer parameter to the application and print its square and cube
+
+4. Write a program to send two strings as parameters, concatenate and print the same.
+
+5. Write a program to extract each character from a String and print it. String is passed as parameter to app
+
+6. Write a program in which you will send a string with characters and numerics combination, extract only numbers and print the same.

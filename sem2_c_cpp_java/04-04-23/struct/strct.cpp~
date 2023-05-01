@@ -1,0 +1,68 @@
+/*
+this code consists of the concept of structure in cpp; it shows how functions can be used inside structure in cpp.
+The type of functions included are: pure virtual function, friend function, normal function. 
+it also shows how structure can utilize access specifiers and inheritance in structure.  
+*/
+#include<iostream>
+
+using namespace std;
+
+/*struct ok{
+public:
+
+int f2(){
+struct inh oj;
+cout<<oj.i<<endl;
+return 0;
+}
+
+};
+*/
+struct cls{
+private:
+int i = 10;
+public:
+cls(){
+i=20;
+}
+virtual int v()=0; // pure virtual function
+int sqr(){
+cout<<i*i<<endl;
+return i*i;
+}
+
+friend int f2(); // making f2 a friend 
+//friend int ok::f2();
+};
+
+
+struct inh: public cls{
+
+int v(){
+cout<<"struct inh"<<endl;
+return 0;
+}
+
+/*int f2(){
+struct ok o;
+cout<<o.i<<endl;
+return 0;
+}
+*/
+};
+
+int f2(){
+struct inh obj;
+obj.i;
+cout<<obj.i<<endl;
+return 0;
+}
+
+int main(){
+
+struct inh obj;
+f2();
+//obj.i; // this doesnt work as i is private under cls and inh cannot access it. publically
+obj.sqr();
+obj.v();
+}

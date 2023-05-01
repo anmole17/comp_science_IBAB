@@ -1,0 +1,14 @@
+1. Write a program in which you would have an integer array of size 10.
+Fill out 6 values into this array, using pointer concept.
+Display the array .
+
+2. Write a program in which you have an integer array with 10 numbers.
+Fetch the values using pointer and display the same.
+
+3. Have an array of 10 integers. Take two inputs from the user, namely
+position1 and position2. Now swap the values at position1 and 2 of the array.
+Display original array and final array. 
+
+4. Achieve(3) using pointers.
+
+5. Arrange an array of integers in ascending order using pointer concept.

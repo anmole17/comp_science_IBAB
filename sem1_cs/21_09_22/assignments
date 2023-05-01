@@ -1,0 +1,14 @@
+1. Write a C program, in which you have an array of integers and size of array is 10.
+Read 8 numbers (enter using keyboard) onto the array and print the same onto screen
+
+2. Write a C program in which you have an integer array of size 10, read 8 numbers into
+it. Print the sum of all the numbers in the array.
+
+3. Write a C program in which you have an integer array of size 6. Read 4 numbers
+into it and reverse the array.
+For Ex:
+if initially array elements were 10 100 20 1
+After reversing it should be 1 20 100 10.
+NOTE: Its not printing in reverse order !!!. Actual elements should change their
+position. In the above example, in the original array, index 0 had 10. After
+re arranging it should have 1 at index 0.

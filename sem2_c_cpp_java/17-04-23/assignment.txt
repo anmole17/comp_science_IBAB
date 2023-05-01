@@ -1,0 +1,5 @@
+1. Write a program in which you create a Vector of 15 integers. When the user enters a number, check if it matches with
+any number in the Vector. If matched, print "Yes" else print "No".
+
+2. Write a program in which you create 2 Vectors . Create a third one, that has all elements of first Vector followed by all
+elements of second Vector

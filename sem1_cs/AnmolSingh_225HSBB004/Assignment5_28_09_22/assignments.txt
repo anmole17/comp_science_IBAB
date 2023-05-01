@@ -1,0 +1,5 @@
+1. store 10 int in an int array amd sort the same in asce and. desc. order.
+
+2. Write a prog to calc the factorial of a no.
+
+3. Create the fibonacci series for n terms.

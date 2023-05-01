@@ -1,0 +1,6 @@
+1. Write a program in which you use operator overloading w.r.t "++" operator to work with an object of a class.
+Pre increment operation should search for vowels in a string and post increment operation should match two strings and print
+equal or not.
+
+2. Write a program in which you overload operator "--" in such a way that pre decrement will find the repeated numbers in an array
+of numbers and post decrement will find all the prime numbers in a list of 'n' numbers.
