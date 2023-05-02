@@ -15,6 +15,6 @@ class A1
 			fos1.write(i);
 		}
 		}
-		catch(Exception e1){}
+		catch(Exception e1){System.out.println(e1);}
 	}
 };

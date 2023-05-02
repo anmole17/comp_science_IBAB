@@ -18,7 +18,7 @@ class A1
 	}
 
 	}
-	catch(Exception e1){}
+	catch(Exception e1){System.out.println(e1);}
 	}
 };
 

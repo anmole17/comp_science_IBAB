@@ -1,0 +1,7 @@
+The battle for Wesnoth
+Hello adventurer!!Choose your class:
+Human 
+Elves
+Dwarves
+Dragonite
+Undead

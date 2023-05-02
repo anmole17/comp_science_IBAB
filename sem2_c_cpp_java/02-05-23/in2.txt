@@ -1,0 +1,6 @@
+Choose your class:
+Human 
+Elves
+Dwarves
+Dragonite
+Undead
