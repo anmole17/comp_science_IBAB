@@ -14,16 +14,23 @@ class root{
 	int *digits(double num){ // helps convert double into an integer with same digits
 		int num_int=num; // get number without decimal
 		int rem1=0;
-		int deci_int=((num-num_int)*1000); // get the decimal part out as int: easy to work with
+		int cnt=5;
+		int deci_int=((num*10000-num_int*10000)); // get the decimal part out as int: easy to work with
 		static int num_arr[20]={0};
 		while(rem1==0){
 			rem1=deci_int%10;
 			if(rem1==0)
 			{deci_int=deci_int/10;
 			}
+			cnt--;
 		}
+		int mult=1;
+		while(cnt>0){ mult=mult*10;cnt--;}
+		cout<<deci_int<<" "<<cnt<<endl;
+		num=(num*(mult))+deci_int;
+		cout<<num<<endl;
+		
 		int r=0;
-		cout<<deci_int<<setprecision(4);
 		while(r!=0)
 		{
 		
