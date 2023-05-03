@@ -9,8 +9,8 @@ class Q1
         try{
         while((i=fis.read())!=-1)
 		{
-			fos1.write(i);
-            fos2.write(i);
+			fos1.write((char)i);
+            fos2.write((char)i);
 		}
         }catch(Exception e1){System.out.println(e1);}
     }

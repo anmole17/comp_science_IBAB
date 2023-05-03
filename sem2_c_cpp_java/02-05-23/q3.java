@@ -9,9 +9,9 @@ class Q3
     FileInputStream fis1,
     FileInputStream fis2, 
     FileInputStream fis3){
-        SequenceInputStream sis1 = new SequenceInputStream(fis1,fis2);
+        try{SequenceInputStream sis1 = new SequenceInputStream(fis1,fis2);
         SequenceInputStream sis2 = new SequenceInputStream(sis1,fis3);
-
+		}catch(Exception e1){System.out.println(e1);}
         return sis2;
     
     }

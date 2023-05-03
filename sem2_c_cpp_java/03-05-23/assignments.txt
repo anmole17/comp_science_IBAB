@@ -1,0 +1,6 @@
+Discussed in Theory class:
+1. Write a program in Java to reverse the content of a file(character wise).
+2. Improvise (1) to concatenate 2 files. The Output should contain text from 1st file as 
+    it is but concent of 2nd file is reversed. 
+3. Extra:  Try to improvise copying one file to another such that you can type "CPY 1.txt 2.txt" on terminal to 
+    copy one file to another in java without using java keyword to run.
