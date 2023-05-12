@@ -11,43 +11,45 @@ using namespace std;
 
 class root{
 	public:
-	int *digits(double num){ // helps convert double into an integer with same digits
-		int num_int=num; // get number without decimal
-		int rem1=0;
-		int cnt=5;
-		int deci_int=((num*10000-num_int*10000)); // get the decimal part out as int: easy to work with
-		static int num_arr[20]={0};
-		while(rem1==0){
-			rem1=deci_int%10;
-			if(rem1==0)
-			{deci_int=deci_int/10;
-			}
-			cnt--;
+	double sqrt(double num){
+		double ans=0;
+		double i=num/2;
+		while(i*i>num){
+			i-=0.0001; 
+			if (i*i==num){
+				return i;
 		}
-		int mult=1;
-		while(cnt>0){ mult=mult*10;cnt--;}
-		cout<<deci_int<<" "<<cnt<<endl;
-		num=(num*(mult))+deci_int;
-		cout<<num<<endl;
-		
-		int r=0;
-		while(r!=0)
-		{
-		
+		if(i*i>num*100){i=i/10;}
 		}
-		return num_arr;
+		return (i);
 	}
 
-	
+	double cbrt(double num){
+		double ans=0;
+		double i=num/2;
+		while(i*i*i>num){
+			i-=0.00001; 
+			if (i*i*i==num){
+				return i;
+		}
+		if(i*i*i>num*1000){i=i/10;}
+		}
+		return (i);
+	}
 };
+
 int main(){
-double n;
-cout<<"Enter a number; accepted decimal till 4 points for input."<<endl;
+double n=1;
+while(n==1){
+cout<<"Enter a number to get it's square root and cube root:"<<endl;
 cin>>n; // takin decimal input
 root rt;
-rt.digits(n);
-
-
+double sqt=rt.sqrt(n);
+double cbt= rt.cbrt(n);
+cout<<"Square root:"<<sqt<<endl;
+cout<<"Cube root:"<<cbt<<endl;
+cout<<"Try again?? Press 1"<<endl;
+cin>>n;
+}
 return(0);
-
 }

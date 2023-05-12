@@ -1,8 +1,3 @@
-*.out
+*.exe
 *.class
-*/*.out
-*/*/*.out
 *.zip
-*/*/*.zip
-*/*.zip
-*/*/*/*.zip
