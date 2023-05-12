@@ -4,7 +4,7 @@
 import java.util.*;
 import java.lang.Math;
 
-class Maths{
+class Q3{
     public static void main(String args[]){
         Scanner scn= new Scanner(System.in);
         try{
@@ -12,7 +12,7 @@ class Maths{
             double num = scn.nextDouble();
             double sqrt=Math.sqrt(num);
             double cbrt=Math.cbrt(num);
-            System.out.println("Square root: "+sqrt+"and Cube root: "+cbrt);
+            System.out.println("Square root: "+sqrt+" and Cube root: "+cbrt);
             
         }catch(Exception e1){
             System.out.println("Enter a valid number!!");

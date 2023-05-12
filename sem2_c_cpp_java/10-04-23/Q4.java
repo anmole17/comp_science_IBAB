@@ -1,8 +1,7 @@
 // 4. Create a java library, which has a class with 4 methods to calculate square,cube,square root and cube root.
 //No built in libraries should be used to achieve these .
-//package Q4;
-//public 
-class Q4{
+package Q4;
+public class Q4{
     public float square(float num){
         return (num*num);
     }

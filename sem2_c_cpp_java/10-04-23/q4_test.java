@@ -1,11 +1,12 @@
 // application to test the package Q4
 
 import java.util.*;
-import Q4;
+import Q4.*;
 
-class Maths{public static void main(String args[]){
+class Maths{
+    public static void main(String args[]){
     Scanner scn= new Scanner(System.in);
-    Q4 math=new Q4();
+    Q4 math = new Q4();
     try{
         System.out.println("Enter a number to get it's square root and cube root:");
         float num = scn.nextFloat();
@@ -19,13 +20,12 @@ class Maths{public static void main(String args[]){
         String.format("%.5f", sqr);
         
         System.out.println("Square root: "+String.format("%.5f", sqrt)+
-                            "and Cube root: "+String.format("%.5f", cbrt)+
-                        "Square: "+String.format("%.5f", cbr)+
-                        "and Cube: "+String.format("%.5f", sqr));
+                            "; Cube root: "+String.format("%.5f", cbrt)+
+                        "; Square: "+String.format("%.5f", sqr)+
+                        "; Cube: "+String.format("%.5f", cbr));
         
     }catch(Exception e1){
         System.out.println("Enter a valid number!!");
-    
     }
 }
 };
