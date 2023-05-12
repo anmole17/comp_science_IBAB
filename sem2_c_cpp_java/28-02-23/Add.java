@@ -1,4 +1,4 @@
-package math;
+package math.Add;
 
 public class Add{
 
