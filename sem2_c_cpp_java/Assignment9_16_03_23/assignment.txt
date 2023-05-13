@@ -1,0 +1,6 @@
+1. Each rectangle is a node. Make sure you implement this model with
+atleast 16 intermediate nodes apart from start and end nodes. These
+16 are 8 nodes running in parallel as shown in the diagram . Through traversal
+you should prove that there are two parallel paths from start to end.
+Let each node contain some integer number.
+Direction of traversal is in "forward" direction only. Refer to pdf for the architecture of the list.

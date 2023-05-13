@@ -1,0 +1,7 @@
+1. Write a program to read 3 integer numbers that are input by user and print the same onto screen.
+
+2. Improvise (1) and calculate sum and product if the three numbers and print the same.
+
+3. Write a program to read a string input by user and print the same.
+
+4. Improvise(3) and make sure the string is of minimum length 8 and print characters at position 3 and 5 in the string.
