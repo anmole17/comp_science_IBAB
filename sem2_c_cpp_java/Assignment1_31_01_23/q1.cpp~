@@ -4,6 +4,8 @@ an object and try to initialise the data directly and also try to invoke the met
 Analyse this and note down findings.*/
 
 #include<iostream>
+
+using namespace std;
 class A1
 {
 	int i,j;

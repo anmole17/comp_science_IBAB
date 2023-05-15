@@ -27,25 +27,4 @@ int main()
 	return(0);
 }
 
-/*output
-q1.cpp: In function ‘int main()’:
-q1.cpp:22:5: error: ‘int A1::i’ is private within this context
-   22 |  a1.i=10;
-      |     ^
-q1.cpp:9:5: note: declared private here
-    9 | int i,j;
-      |     ^
-q1.cpp:23:5: error: ‘int A1::j’ is private within this context
-   23 |  a1.j=20;
-      |     ^
-q1.cpp:9:7: note: declared private here
-    9 | int i,j;
-      |       ^
-q1.cpp:24:9: error: ‘void A1::add()’ is private within this context
-   24 |  a1.add();
-      |         ^
-q1.cpp:11:6: note: declared private here
-   11 | void add()
 
-Conclusion: Default access specifier is private
-*/
