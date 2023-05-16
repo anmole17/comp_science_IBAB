@@ -1,3 +1,5 @@
 1. Write a program that copies one file content to two different files. (Creating two copies of original)
 2. Write a program to concatenate 3 files and print content onto screen.
 3. Improvise(2) and redirect the concatenated content to an output text file.
+
+# Note:  The in1.txt, in2.txt and in3.txt must be ready before running the programm

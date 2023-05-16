@@ -9,9 +9,9 @@ class Q3
     FileInputStream fis1,
     FileInputStream fis2, 
     FileInputStream fis3){
-        try{SequenceInputStream sis1 = new SequenceInputStream(fis1,fis2);
+        SequenceInputStream sis1 = new SequenceInputStream(fis1,fis2);
         SequenceInputStream sis2 = new SequenceInputStream(sis1,fis3);
-		}catch(Exception e1){System.out.println(e1);}
+		
         return sis2;
     
     }
@@ -19,10 +19,17 @@ class Q3
 	{ Q3 q3=new Q3();
 	try
 	{
-	FileInputStream fis1 = new FileInputStream("in1.txt");
-	FileInputStream fis2 = new FileInputStream("in2.txt");
-	FileInputStream fis3 = new FileInputStream("in3.txt");
-	FileOutputStream fos1 = new FileOutputStream("out2.txt");
+		Scanner sc =new Scanner(System.in);
+	System.out.println("Enter name of 3 input files:");
+	String s1 = sc.next();
+	String s2 = sc.next();
+	String s3 = sc.next();
+	FileInputStream fis1 = new FileInputStream(s1);
+	FileInputStream fis2 = new FileInputStream(s2);
+	FileInputStream fis3 = new FileInputStream(s3);
+	System.out.println("Enter name of output file:");
+	String s4 = sc.next();
+	FileOutputStream fos1 = new FileOutputStream(s4);
 	int i;
 	SequenceInputStream sis= q3.concat(fis1,fis2,fis3);
 
@@ -32,7 +39,7 @@ class Q3
         
 
 	}
-	
+	fos1.close();
     }
 	catch(Exception e1){System.out.println(e1);}
 	}
