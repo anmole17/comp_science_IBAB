@@ -26,7 +26,7 @@ public:
 	void f2()
 	{
 	k='k';
-	cout<<"From f2() "<<k;
+	cout<<"From f2(): "<<k;
 	}
 
 };

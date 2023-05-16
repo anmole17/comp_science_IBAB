@@ -1,0 +1,27 @@
+/*extra: Extra:  Try to improvise copying one file to another such that you can type "CPY 1.txt 2.txt" on terminal to copy one file to another in java without using java keyword to run.
+*/
+import java.util.*;
+import java.io.*;
+
+class CPY
+{   public void copy_2(FileInputStream fis, FileOutputStream fos1){
+        int i;
+        try{
+        while((i=fis.read())!=-1)
+		{
+			fos1.write((char)i);
+		}
+        }catch(Exception e1){System.out.println(e1);}
+    }
+	public static void main(String args[])
+	{
+		 CPY q = new Q1();
+		try
+		{// Make sure to have in1.txt and in2.txt ready with content beforehand
+		FileInputStream fis1 =new FileInputStream(args[0]); 
+		FileOutputStream fos1 = new FileOutputStream(args[1]);
+		q.copy_2(fis1,fos1);
+		}
+		catch(Exception e1){System.out.println(e1);}
+	}
+};

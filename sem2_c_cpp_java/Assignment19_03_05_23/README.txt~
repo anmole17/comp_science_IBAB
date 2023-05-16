@@ -1,0 +1,10 @@
+To perform :
+CPY in1.txt out1.txt
+
+Please run these command first: 
+chmod +x CPY
+alias CPY="./CPY"
+ 
+then run
+CPY in1.txt out1.txt
+

@@ -1,0 +1,29 @@
+#!/bin/bash
+
+echo "import java.util.*;">>CPY.java
+echo "import java.io.*;">>CPY.java
+echo "class CPY">>CPY.java
+echo "{   public void copy_2(FileInputStream fis, FileOutputStream fos1){">>CPY.java
+echo "int i;">>CPY.java
+echo "try{">>CPY.java
+echo "while((i=fis.read())!=-1)">>CPY.java
+echo "{">>CPY.java
+echo "fos1.write((char)i);">>CPY.java
+echo "}">>CPY.java
+echo "}catch(Exception e1){System.out.println(e1);}">>CPY.java
+echo "}">>CPY.java
+echo "public static void main(String args[])">>CPY.java
+echo "{">>CPY.java
+echo "CPY q = new CPY();">>CPY.java
+echo "try">>CPY.java
+echo "{">>CPY.java
+echo "FileInputStream fis1 =new FileInputStream(args[0]);">>CPY.java
+echo "FileOutputStream fos1 = new FileOutputStream(args[1]);" >>CPY.java
+echo "q.copy_2(fis1,fos1);">>CPY.java
+echo "}">>CPY.java
+echo "catch(Exception e1){System.out.println(e1);}">>CPY.java
+echo "}">>CPY.java
+echo "};">>CPY.java
+javac CPY.java
+java CPY $1 $2
+

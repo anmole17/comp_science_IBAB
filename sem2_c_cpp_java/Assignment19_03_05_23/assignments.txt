@@ -4,3 +4,6 @@ Discussed in Theory class:
     it is but concent of 2nd file is reversed. 
 3. Extra:  Try to improvise copying one file to another such that you can type "CPY 1.txt 2.txt" on terminal to 
     copy one file to another in java without using java keyword to run.
+
+
+# Note:  The in1.txt, in2.txt must be ready before running the programm
