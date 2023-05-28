@@ -37,10 +37,10 @@ void operator --(){
 void operator --(int){
 	int i,j, cntr;
 	cout<<"Post decrement operator:"<<endl;
-	cout<<"Enter an array of 10 integers"<<endl;
-	for(i=0;i<10;i++){
-	cin>>arr[i];
-	}
+	// cout<<"Enter an array of 10 integers"<<endl;
+	// for(i=0;i<10;i++){
+	// cin>>arr[i];
+	// }
 	cout<<"The prime numbers in the list are:"<<endl;
 	for(i=0;i<10;i++){
 		cntr=0;

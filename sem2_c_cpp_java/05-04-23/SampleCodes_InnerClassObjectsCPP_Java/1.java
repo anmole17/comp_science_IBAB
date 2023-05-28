@@ -25,6 +25,6 @@ class C1
 		a1.f1();
 		A1.B1 b1 = new A1().new B1();
 		b1.f2();
-		b1.f1();
+		//b1.f1(); doesnt work, cant inherit
 	}
 };

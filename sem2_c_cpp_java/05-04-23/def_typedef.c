@@ -10,7 +10,7 @@ typedef float o_o;
 int main(){
 int i;
 long x;
-x=&owo;
+x=ouo;
 o_o Oo=0.0;
 OwO Oo_oO;
 Oo_oO.O_o=0.0;
