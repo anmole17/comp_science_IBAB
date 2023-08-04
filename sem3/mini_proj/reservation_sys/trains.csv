@@ -1,0 +1,20 @@
+﻿train_id,train_name,class,source,destination,arrival_pf,arrival_time,reaching_pf,reaching_time,distance_km,ticket_cost
+AO1,The White Rose,ac_sleep,Bournemouth,Bexley,1,07:45,2,10:45,375,1050
+AO1,The White Rose,ac_seat,Bournemouth,Bexley,1,07:45,2,10:45,375,715
+AO1,The White Rose,no_ac_seat,Bournemouth,Bexley,1,07:45,2,10:45,375,350
+AO2,The White Rose,ac_sleep,Bexley,Bournemouth,2,04:20,1,07:30,375,1050
+AO2,The White Rose,ac_seat,Bexley,Bournemouth,2,04:20,1,07:30,375,715
+AO2,The White Rose,no_ac_seat,Bexley,Bournemouth,2,04:20,1,07:30,375,350
+BO1,Flying Bluenose,ac_sleep,Bexley,Zalfari,1,11:15,2,17:20,415,1150
+BO1,Flying Bluenose,ac_seat,Bexley,Zalfari,1,11:15,2,17:20,415,780
+BO1,Flying Bluenose,no_ac_seat,Bexley,Zalfari,1,11:15,2,17:20,415,400
+BO2,Flying Bluenose,ac_sleep,Zalfari,Bexley,2,00:15,1,04:00,415,1150
+BO2,Flying Bluenose,ac_seat,Zalfari,Bexley,2,00:15,1,04:00,415,780
+BO2,Flying Bluenose,no_ac_seat,Zalfari,Bexley,2,00:15,1,04:00,415,400
+CO1,The Newton,ac_sleep,Zalfari,Ashborne,1,18:30,2,20:55,250,750
+CO1,The Newton,ac_seat,Zalfari,Ashborne,1,18:30,2,20:55,250,430
+CO1,The Newton,no_ac_seat,Zalfari,Ashborne,1,18:30,2,20:55,250,225
+CO2,The Newton,ac_sleep,Ashborne,Zalfari,2,21:30,1,23:45,250,750
+CO2,The Newton,ac_seat,Ashborne,Zalfari,2,21:30,1,23:45,250,430
+CO2,The Newton,no_ac_seat,Ashborne,Zalfari,2,21:30,1,23:45,250,225
+,,,,,,,,,,
