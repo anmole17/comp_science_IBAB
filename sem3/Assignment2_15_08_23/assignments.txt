@@ -1,0 +1,10 @@
+1. Wrote a python script that takes two numbers as input from an html form and performs addition, subtraction, multiplication and division
+of those numbers and displays the result of each operation.
+
+2. Write  a python script that takes a name/string as input from an html form, reverses the same and prints both original and 
+reversed strings.
+
+3. Write a python script that takes 3 names as input from an html form and prints them as an html list (Ordered list).
+4. Try (3) and print as unordered list
+
+5. Write a python script that takes 2 strings as input from an html form and prints the common letters in the strings.

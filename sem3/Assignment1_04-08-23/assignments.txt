@@ -1,0 +1,9 @@
+1. Create a simple HTML file that displays 6 lines of text
+
+2. Improvise (1) by giving a header and a title
+
+3. Create an HTML file that lists some books . For each book let there be extra info like author, pages etc. Main list is in ordered and sub ones are ordered.
+
+4. Improvise(3  by adding a marquee with info " Book(s) Details" which moves from left to right
+
+5. Improvise(4) in a way that each book has hyperlink. When clicked it shows some content of book.
