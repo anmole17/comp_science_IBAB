@@ -1,0 +1,5 @@
+1. Submit a number from HTML form and let a script check how many digits present in that number and print the same.
+
+2. Improvise (1) and check if each digit is even or odd and print it
+
+3. Submit two words and let the script merge them in a way that the merged string has one letter from first and one letter from second string. Display the same. Take two strings of same length as input
