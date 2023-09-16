@@ -1,0 +1,10 @@
+1. Create 3 databases plantA, plantB and plantC. 
+In each DB, have 2 tables namely indian and African.
+Insert info of atleast 4 plants into each table of each DB.
+Choose your own properties for each plant group.
+Interchange the information of Indian table under plantA,with that of African table in plantB. 
+Similarly interchange the information of African table under plant C with that Indian table of plant B.
+Print all the table values. Try to achieve this by running each statement at mysql prompt.
+Then, try it as an sql script.
+
+2. For the above DBs and tables, try to print common values across Indian table of  plantA and Indian table of plantB.
