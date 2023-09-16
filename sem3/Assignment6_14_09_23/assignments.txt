@@ -1,0 +1,5 @@
+1. Create and run 3 threads each with the same task.
+2. Improvise (1) with each thread working on different tasks.
+3. Create and run 3 threads working with their own tasks. Synchronize any two using join.
+4. Create and run 3 threads in such a way, that there is a chain of threads. Ex: Thread A will run and then create and run
+Thread B, which in turn will create and run Thread C.
