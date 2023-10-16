@@ -1,0 +1,6 @@
+
+1.In thread 1, print 0 → 25
+  In thread 2, print 26→ 50
+
+2. Create 3 threads such that they are chained (t1 starts t2   which starts t3)
+ T1 ->T2 -> T3

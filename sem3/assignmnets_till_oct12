@@ -1,0 +1,136 @@
+Aug 4 HTML
+1. Create a simple HTML file that displays 6 lines of text
+
+2. Improvise (1) by giving a header and a title
+
+3. Create an HTML file that lists some books . For each book let there be extra info like author, pages etc. Main list is in ordered and sub ones are ordered.
+
+4. Improvise(3  by adding a marquee with info " Book(s) Details" which moves from left to right
+
+5. Improvise(4) in a way that each book has a hyperlink. When clicked it shows some content of the book.
+
+Aug 15 HTML Forms & Py 
+Work on these assignments by creating python scripts. Associate each python script with a corresponding html form.
+
+1. Write a python script that takes two numbers as input from an html form and performs addition, subtraction, multiplication and division
+of those numbers and displays the result of each operation.
+
+2. Write  a python script that takes a name/string as input from an html form, reverses the same and prints both original and 
+reversed strings.
+
+3. Write a python script that takes 3 names as input from an html form and prints them as an html list (Ordered list).
+
+4. Try (3) and print as unordered list
+
+5. Write a python script that takes 2 strings as input from an html form and prints the common letters in the strings.
+
+Aug 28 Html forms & CGI scripts
+
+1. Submit a number from HTML form and let a script check how many digits present in that number and print the same.
+
+2. Improvise (1) and check if each digit is even or odd and print it
+
+3. Submit two words and let the script merge them in a way that the merged string has one letter from the first and one letter from the second string. Display the same. Take two strings of same length as input
+
+Sept 1 MySQL
+
+1. Create a database named institute. Under that create two tables, with name(s) MSc and PhD. 
+Under each table store information of at least 4 students , containing id , name , batch_no, semester 
+You decide which parameter(s) among these , needs to be integer or varchar.
+Once its all done, display contents of table MSc followed by PhD.
+
+2. Create two databases namely bird1 and bird2.
+Under bird1 have two tables namely predator and prey.
+Under predator have a list of at least 3 birds.
+Under prey have a list of at least 4 birds.
+For each bird under both tables, have name , origin , wing span, food as properties.
+
+Under bird2 have three tables namely small , medium , large.
+Under each table, list 3 birds.
+For each bird , under all three tables, have name, origin , size , life span as properties.
+
+Once all tables in both databases are filled up as per the requirements, display content of each table from both the databases.
+
+
+Sept 6 MySQL
+1. Create 3 databases plantA, plantB and plantC. In each DB, have 2 tables namely indian and African. Insert info of atleast 4 plants into each table of each DB. Choose your own properties for each plant group.
+Interchange the information of Indian table under plantA,
+with that of the African table in plantB. Similarly interchange the information of African table under plant C with that Indian table of plant B. Print all the table values. Try to achieve this by running each statement at mysql prompt.
+Then, try it as an sql script.
+
+2. For the above DBs and tables, try to print common values across Indian table of  plantA and the Indian table of plantB.
+
+Sept 14 Threads
+1. Create and run 3 threads each with the same task.
+2. Improvise (1) with each thread working on different tasks.
+3. Create and run 3 threads working with their own tasks. Synchronize any two using join.
+4. Create and run 3 threads in such a way, that there is a chain of threads. Ex: Thread A will run and then create and run
+Thread B, which in turn will create and run Thread C.
+
+
+Sept 18 Threads2
+In thread 1, print 0 → 25
+In thread 2, print 26→ 50
+
+
+Create 3 threads such that they are chained (t1 starts t2 which starts t3)
+T1 ->T2 -> T3 use wait and sleep
+
+    8.Sept 20 JDBC
+Create a database with 1 table
+Create 2 dbs with 2 tables each 
+
+9. Sept 27 Servlet
+Write a servlet that takes a string input and creates a pallidrome and prints the same 
+Write a program that takes a string in small letter and converts it into uppercase
+Write a servlet that takes integer numbers as input and print the digits that are at the odd positions. (Eg: If number input is 12345, It should print 135)
+
+10. Sept 30 Servlet and JDBC
+
+1. Write a Servlet in which you take input about Database name, Table name and Values to be stored in the table.
+For now, create only one database, with a single table. Let the table contain id and name as content. Store 3 sets
+of values in it. Use JDBC code as part of doGet() method of servlet and implement this.
+
+
+2. Improvise by having a separate method that does JDBC work and call this method from doGet() method of
+servlet. Note down any challenges you face.
+
+
+3. Design an html form, that takes name and age of a person. Now, write a servlet that takes this input and displays
+both the name and age. The same servlet, will also display another form, along with this result. This form is created
+by Servlet (BAsically the result display page will also have provision to enter some more data). Using this form, enter
+another name. When submitted , another servlet takes this input along with the name and age submitted from first
+form (this is the catch!!!0 and displays concatenated name along with age. 
+Note: Whatever you know about string, string manipulation and servlet till today, is more than enough to achieve this.
+Have attached some screenshots that tells you the expected output.
+In the zip file, first go through README.txt and follow instructions as per that.
+
+
+11) Oct 12- Servlet and JSP
+1) Write a servlet that takes important data for 6 students and process the same and put them in order (rank them) based on a key parameter.
+The inputs to be given per students are 1)name 2)age 3)course 4) marks of 4 subjects.Rank is based on overall marks scored. Write an html form to submit this data.
+
+2) Implement 1 in JSP
+
+12) Oct 16 :
+
+ 
+
+
+
+
+
+ERROR
+
+
+How i solved
+There was error in path and and it was 64 ,and there was two ==
+
+
+
+
+
+STEPS
+
+
+

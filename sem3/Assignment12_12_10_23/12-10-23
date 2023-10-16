@@ -1,0 +1,4 @@
+1. Write a servelet that takes an important data for 6 students, process the same and put them in an order(rank them)based on a key parameter. The imputs to be given per student are : 1. name , 2. Age, 3. Course, 4. Marks scored in 4 subjects. 
+Rank is decided based on overall marks scored. Write a suitable html form to submit this data.
+
+2. Implement the above using a JSP.

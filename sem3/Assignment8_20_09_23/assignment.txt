@@ -1,0 +1,4 @@
+1. WAP to connect java to mysql and create a database, and table. Insert Values into the table.
+2. WAP to connect java to mysql and create a 2 database, and 2 tables per database. Insert values into the tables.
+ 
+
