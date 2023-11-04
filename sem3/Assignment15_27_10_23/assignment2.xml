@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vehicles SYSTEM "assignment2.dtd">
+<vehicles>
+<car>
+<n_passenger>4</n_passenger>
+<size>medium</size>
+<wheels>4</wheels>
+<cost>600000</cost>
+<safety>good</safety>
+<fuel>petrol, CNG, diesel</fuel>
+</car>
+<cycle>
+<n_passenger>1</n_passenger>
+<size>small</size>
+<wheels>2</wheels>
+<cost>5000</cost>
+<safety>bad</safety>
+<fuel>No fuel</fuel>
+</cycle>
+<bus>
+<n_passenger>60</n_passenger>
+<size>large</size>
+<wheels>6</wheels>
+<cost>15L</cost>
+<safety>medium</safety>
+<fuel>petrol, CNG, diesel</fuel>
+</bus>
+</vehicles>

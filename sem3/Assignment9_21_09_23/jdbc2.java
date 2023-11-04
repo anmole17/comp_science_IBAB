@@ -1,6 +1,5 @@
 //2. Take input of what database name and table to create and create them using jdbc.
 
-// TODO
 
 import java.util.*;
 import java.io.*;
@@ -13,21 +12,19 @@ Class.forName("com.mysql.cj.jdbc.Driver");
 Connection c1 = DriverManager.getConnection("jdbc:mysql://localhost:3306","root", "rootIbab@1");
 Statement st1 = c1.createStatement();
 String query;
-FileReader rd1 = new FileReader("./one.sql");
-BufferedReader bf1 = new BufferedReader(rd1);
+Scanner sc=new Scanner(System.in); 
+System.out.println("Enter database name:");
+String db = sc.nextLine();
+System.out.println("Enter table name:");
+String tb = sc.nextLine();
 
-while(bf1.ready()){
-query = bf1.readLine();
+query = "create database "+ db +";";
 st1.execute(query);
-}
-
-ResultSet rs1= st1.executeQuery("select * from plantA.indian;");
-while(rs1.next()){
-System.out.println(rs1.getString(1)+" "+rs1.getString(2)+" "+rs1.getString(3));
-}
+query = "create table "+db+"."+tb+"(id int, name varchar(40));";
+st1.execute(query);
 
 }
-catch(Exception e){}
+catch(Exception e){System.out.println(e);}
 }
 }
 

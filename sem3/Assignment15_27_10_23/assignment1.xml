@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bird [
+<!ELEMENT bird (predator, prey)>
+<!ELEMENT predator (pred,pred,pred)>
+<!ELEMENT pred (name,country, lifeSpan, size)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT lifeSpan (#PCDATA)>
+<!ELEMENT size (#PCDATA)>
+<!ELEMENT prey (pre,pre,pre)>
+<!ELEMENT pre (name,country, lifeSpan, size)>
+]>
+<bird>
+<predator>
+<pred>
+<name>Eagle</name>
+<country>USA</country>
+<lifeSpan>15 years</lifeSpan>
+<size>large</size>
+</pred>
+<pred>
+<name>Hawk</name>
+<country>India</country>
+<lifeSpan>20 years</lifeSpan>
+<size>medium</size>
+</pred>
+<pred>
+<name>Flamingo</name>
+<country>India</country>
+<lifeSpan>30 years</lifeSpan>
+<size>large</size>
+</pred>
+</predator>
+<prey>
+<pre>
+<name>Sparrow</name>
+<country>India</country>
+<lifeSpan>3 years</lifeSpan>
+<size>small</size>
+</pre>
+<pre>
+<name>Pigeon</name>
+<country>India</country>
+<lifeSpan>6 years</lifeSpan>
+<size>medium</size>
+</pre>
+<pre>
+<name>Myna</name>
+<country>India</country>
+<lifeSpan>4 years</lifeSpan>
+<size>small</size>
+</pre>
+</prey>
+</bird>

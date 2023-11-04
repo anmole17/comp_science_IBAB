@@ -85,7 +85,7 @@ Write a servlet that takes a string input and creates a pallidrome and prints th
 Write a program that takes a string in small letter and converts it into uppercase
 Write a servlet that takes integer numbers as input and print the digits that are at the odd positions. (Eg: If number input is 12345, It should print 135)
 
-10. Sept 30 Servlet and JDBC
+11. Sept 30 Servlet and JDBC
 
 1. Write a Servlet in which you take input about Database name, Table name and Values to be stored in the table.
 For now, create only one database, with a single table. Let the table contain id and name as content. Store 3 sets
@@ -106,31 +106,42 @@ Have attached some screenshots that tells you the expected output.
 In the zip file, first go through README.txt and follow instructions as per that.
 
 
-11) Oct 12- Servlet and JSP
+12) Oct 12- Servlet and JSP
 1) Write a servlet that takes important data for 6 students and process the same and put them in order (rank them) based on a key parameter.
 The inputs to be given per students are 1)name 2)age 3)course 4) marks of 4 subjects.Rank is based on overall marks scored. Write an html form to submit this data.
 
 2) Implement 1 in JSP
 
-12) Oct 16 :
-
+13) Oct 16 :
+servlet chain
  
+14) Oct 18:
+1.Write a normal java application to be run from command prompt . Create a vector of vectors. Let the inner vectors contain numbers and strings. Print the vector of vectors once. Then check how many 0s are present in the entire vector. Print the count.
+Ex
+V1 could be 
+[[ 10,20,30,hi,hello],[ 1,2,3,ten0,eleven0],[]hello,hi,ibab,0,330]]
 
+Total 0s will be 7.
 
+2. Improvise(1) and send all required vector values from html form , process it all and display result using servlet
 
+15) XML
+1. A researcher is working on a project that involves studying predator and prey under bird category.
+The following birds are considered under each category.
+Predator : 
+Eagle
+Hawk
+Flamingo
 
+Prey:
+Sparrow
+Pigeon
+Myna
+Come out with an xml document that covers all these birds, along with atleast 3 features per bird, including but not limited to
+country, lifeSpan, size.
+Make sure the XML is both well formed and valid. Use an internal DTD to validate it.
 
-ERROR
-
-
-How i solved
-There was error in path and and it was 64 ,and there was two ==
-
-
-
-
-
-STEPS
-
+2. Come out with an XML that describes the features of atleast 3 different types of vehicles.
+Each vehicle should have atleast 5 properties. Write an external DTD to validate this XML.
 
 

@@ -21,11 +21,11 @@ st1.execute(query);
 
 ResultSet rs1= st1.executeQuery("select * from plantA.indian;");
 while(rs1.next()){
-System.out.println(rs1.getString(1)+"|"+rs1.getString(2)+"|"+rs1.getString(3));
+System.out.println(rs1.getString(1)+" | "+rs1.getString(2)+" | "+rs1.getString(3));
 }
 
 }
-catch(Exception e){}
+catch(Exception e){System.out.println(e);}
 }
 }
 
