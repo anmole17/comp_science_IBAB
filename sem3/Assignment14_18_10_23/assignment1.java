@@ -28,17 +28,21 @@ vect2.add(sc.next());
 vect1.add(vect2);
 }
 
-
-for(i=0; i<3;i++){
-String st1;
-for(j=0;j<3;j++){
-
-}
-vect1.add(vect2);
-}
+System.out.println("Vector created:");
 
 System.out.println(vect1);
-
+String vect;
+int len_v = vect1.size();
+int zeros=0;
+for(i=0; i<len_v;i++){
+vect = vect1.get(i).toString();
+int vect_len= vect.length();
+for(j=0;j<vect_len;j++){
+if(vect.charAt(j)=='0'){
+zeros++;
 }
-
+}
+}
+System.out.println("Number zero: "+zeros);
+}
 };

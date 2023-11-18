@@ -1,4 +1,3 @@
-#thisss comment works  -- doesnt
 drop database plantA;
 drop database plantB;
 drop database plantC;

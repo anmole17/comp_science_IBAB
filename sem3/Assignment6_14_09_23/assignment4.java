@@ -9,7 +9,7 @@ public void run()
 System.out.println("Task 3");
 
 }
-};
+};// task 2 starts task3 and starts it
 class Task2 extends Thread
 {
 public void run()
@@ -19,7 +19,7 @@ Task3 t3 = new Task3();
 t3.start();
 }
 };
-
+//Task1 creates task 2 and starts it
 class Task1 extends Thread
 {
 public void run()

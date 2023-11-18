@@ -2,10 +2,11 @@
 1. Write a Servlet in which you take input about Database name, Table name and Values to be stored in the table.
 For now, create only one database, with a single table. Let the table contain id and name as content. Store 3 sets
 of values in it. Use JDBC code as part of doGet() method of servlet and implement this.
-
+Files: servJDBC1.java and servJDBC1.html
 
 2. Improvise by having a separate method that does JDBC work and call this method from doGet() method of
 servlet. Note down any challenges you face.
+Files: servJDBC2.java and servJDBC2.html
 
 
 3. Design an html form, that takes name and age of a person. Now, write a servlet that takes this input and displays
@@ -17,3 +18,4 @@ Note: Whatever you know about string, string manipulation and servlet till today
 Have attached some screenshots that tells you the expected output.
 In the zip file, first go through README.txt and follow instructions as per that.
 
+Run the  3assign.html for Q3 ; 3assign.html -->assign3.java-->assign3_2.java

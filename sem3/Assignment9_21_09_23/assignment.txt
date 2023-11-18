@@ -1,3 +1,4 @@
 1. Read from one.sql scrip and execute the commands using jdbc
-1. Take input of what database name and table to create and create them using jdbc.
+2. Take input of what database name and table to create and create them using jdbc.
 
+# if one.sql doent work check if there are any unnecessay empty lines

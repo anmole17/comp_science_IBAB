@@ -1,3 +1,7 @@
 1.Write a servlet that takes a string input and creates a pallidrome and prints the same 
 2.Write a program that takes a string in small letter and converts it into uppercase
 3.Write a servlet that takes integer numbers as input and print the digits that are at the odd positions. (Eg: If number input is 12345, It should print 135)
+
+Pal.java --> Q1 
+Upper2.java --> Q2
+odddig.java -->  Q3
