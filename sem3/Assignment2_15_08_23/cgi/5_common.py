@@ -8,7 +8,7 @@ name1=form.getvalue("name1")
 name2=form.getvalue("name2")
 name1=name1.lower()
 name2=name2.lower()
-common=list()
+common=list() # add to the list if the letter is common 
 for letter1 in name1:
     for letter2 in name2:
         if (letter1==letter2):

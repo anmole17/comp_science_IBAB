@@ -15,7 +15,7 @@ print("<body>")
 print("<h1>")
 if(l!=l2):
     print("The words are not of equal length")
-else:
+else: # connect tow words into one with alternate characters
     for i in range(0,l):
         newword= newword+word1[i]+word2[i]
     print("Merged string: ", newword)

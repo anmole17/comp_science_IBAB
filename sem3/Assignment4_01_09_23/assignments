@@ -15,3 +15,7 @@ Under each table, list 3 birds.
 For each bird , under all three tables, have name, origin , size , life span as properties.
 
 Once all tables in both databases are filled up as per the requirements, display content of each table from both the databases.
+
+Note: the .sql  files can be used, if giving error, comments can be removed.
+
+

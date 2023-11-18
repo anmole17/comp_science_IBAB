@@ -8,3 +8,5 @@ reversed strings.
 4. Try (3) and print as unordered list
 
 5. Write a python script that takes 2 strings as input from an html form and prints the common letters in the strings.
+
+The html and cgi scripts for the questions are in seperate folders.

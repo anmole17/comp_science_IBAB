@@ -8,7 +8,7 @@ num1=int(form.getvalue("num1"))
 digits=0
 x=num1
 digit=0
-digit_list=list()
+digit_list=list() # here same as q1; but using modulus to get a remainder which is the current digit
 while(x>0):
     digit=x%10 
     x=int(x/10)
