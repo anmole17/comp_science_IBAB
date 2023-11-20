@@ -50,6 +50,7 @@ public class servJDBC1 extends HttpServlet
 		{
 		p1.println("<tr><td>"+rs1.getString(1)+"</td><td>"+rs1.getString(2)+"</td></tr>");
 		}
+		p1.println("</table></body></html>");
 		}
 		catch(Exception e){p1.println(e);}
 	}
