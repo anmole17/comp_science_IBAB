@@ -1,0 +1,10 @@
+<!ELEMENT vehicles (car, cycle, bus)>
+<!ELEMENT car (n_passenger, size, wheels, cost, safety, fuel)>
+<!ELEMENT cycle (n_passenger, size, wheels, cost, safety, fuel)>
+<!ELEMENT bus (n_passenger, size, wheels, cost, safety, fuel)>
+<!ELEMENT n_passenger (#PCDATA)>
+<!ELEMENT size (#PCDATA)>
+<!ELEMENT wheels (#PCDATA)>
+<!ELEMENT cost (#PCDATA)>
+<!ELEMENT safety (#PCDATA)>
+<!ELEMENT fuel (#PCDATA)>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE birds [
+<!ELEMENT birds (predator,prey)>
+<!ELEMENT predator (bird)>
+<!ELEMENT prey (bird)>
+<!ELEMENT bird (name,country, lifeSpan, size)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT lifeSpan (#PCDATA)>
+<!ELEMENT size (#PCDATA)>
+]>
+<birds>
+<predator>
+<bird>
+<name>Eagle</name>
+<country>USA</country>
+<lifeSpan>15 years</lifeSpan>
+<size>large</size>
+</bird>
+</predator>
+<prey>
+<bird>
+<name>Sparrow</name>
+<country>India</country>
+<lifeSpan>3 years</lifeSpan>
+<size>small</size>
+</bird>
+</prey>
+</birds>

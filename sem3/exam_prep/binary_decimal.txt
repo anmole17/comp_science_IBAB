@@ -1,0 +1,55 @@
+# python3
+#def decimalToBinary(n): 
+# 
+#    if(n > 1): 
+#        # divide with integral result 
+#        # (discard remainder) 
+#        decimalToBinary(n//2) 
+# 
+#     
+#    print(n%2, end=' ')
+
+#def binaryToDecimal(binary):
+# 
+#    decimal, i = 0, 0
+#    while(binary != 0):
+#        dec = binary % 10
+#        decimal = decimal + dec * pow(2, i)
+#        binary = binary//10
+#        i += 1
+#    print(decimal)
+
+## java
+String num2 = Integer.toBinaryString(num1);
+public int convertBinaryToDecimal(long num) {
+    int decimalNumber = 0, i = 0;
+    long remainder;
+    
+    while (num != 0) {
+      remainder = num % 10;
+      num /= 10;
+      decimalNumber += remainder * Math.pow(2, i);
+      ++i;
+    }
+
+# to decimal
+int decimal = Integer.parseInt(binary, 2);
+
+public long convertDecimalToBinary(int n) {
+
+    long binaryNumber = 0;
+    int remainder, i = 1, step = 1;
+
+    while (n!=0) {
+      remainder = n % 2;
+        System.out.println("Step " + step++ + ": " + n + "/2");
+
+        System.out.println("Quotient = " + n/2 + ", Remainder = " + remainder);
+        n /= 2;
+
+        binaryNumber += remainder * i;
+        i *= 10;
+    }
+    
+    return binaryNumber;
+    }
