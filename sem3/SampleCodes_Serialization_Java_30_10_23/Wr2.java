@@ -3,7 +3,7 @@ import java.io.*;
 
 class Wr1 implements Serializable /*Mandate*/
 {
-int Age=23;int Ht=11; int wt=65;//transient int test /*Two Data Items */
+int Age=23;int Ht=11; int wt=65;//transient int test ==> test will not be serilized /*Two Data Items */
 public static void main(String args[])
 {
 Wr1 a1 = new Wr1();/*Creating Object*/
