@@ -32,6 +32,15 @@ query = "insert into LandAnimals.prey values (1,'Turtles','Medium','sea and fres
 st1.execute(query);
 query = "insert into LandAnimals.predator values (4,'Polar Bear','Medium','Arctic Circle'),(8,'Lions','Medium','Forests, grasslands'),(9,'Wolf','Medium','Forests, grasslands');";
 st1.execute(query);
+// run from.sql
+/// FileReader rd1 = new FileReader("./one.sql");
+//BufferedReader bf1 = new BufferedReader(rd1);
+
+//while(bf1.ready()){
+//query = bf1.readLine();
+//st1.execute(query);
+//}
+
 //SELECT * FROM LandAnimals.prey INNER JOIN SeaAnimals.prey ON LandAnimals.prey.id = SeaAnimals.prey.id;
 ResultSet rs1= st1.executeQuery("SELECT * FROM LandAnimals.prey INNER JOIN SeaAnimals.prey ON LandAnimals.prey.id = SeaAnimals.prey.id;");
 System.out.println("Common Prey based on ID:");

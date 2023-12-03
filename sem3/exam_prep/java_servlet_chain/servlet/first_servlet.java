@@ -16,6 +16,7 @@ public class first_servlet extends HttpServlet
 		for(i=1; i<=12;i++){
 		String query;
 		query= "<div><label> Enter Number "+i+"<input name='num"+i+"'></label></div>"; 
+		//p1.println("<label> Name:<input type='text' id='name1' name='name1' value="+name1+" readonly>");
 		p1.println(query);
 		}
 		p1.println("<input type='submit' value='Display'>");

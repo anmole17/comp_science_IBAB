@@ -2,7 +2,7 @@
 import cgi
 
 form = cgi.FieldStorage()
-
+#numarr= [int(x) for x in num1.split(" ")]
 num1=int(form.getvalue("num1"))
 num2=int(form.getvalue("num2"))
 # never print anything before Content-type : it gives error 

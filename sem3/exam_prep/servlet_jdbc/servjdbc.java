@@ -33,6 +33,16 @@ public class servJDBC1 extends HttpServlet
 		Connection c1 = DriverManager.getConnection("jdbc:mysql://localhost:3306","root", "rootIbab@1");
 		Statement st1 = c1.createStatement();
 		String query;
+
+		// run from.sql
+		/// FileReader rd1 = new FileReader("./one.sql");
+		//BufferedReader bf1 = new BufferedReader(rd1);
+
+		//while(bf1.ready()){
+		//query = bf1.readLine();
+		//st1.execute(query);
+		//}
+		
 		query = "create database "+ db +";";
 		st1.execute(query);
 		
