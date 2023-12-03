@@ -42,6 +42,14 @@ for(j=0;j<vect_len;j++){
 if(vect.charAt(j)=='0'){
 zeros++;
 }
+//System.out.println("Present or not?:");
+//        if(vec.indexOf(val)!=-1){
+//		System.out.println("Yes");
+//        }
+//        else{
+//            System.out.println("No");      
+//        }
+
 }
 }
 p1.println("<h3>Number zero: </h3>"+zeros);
