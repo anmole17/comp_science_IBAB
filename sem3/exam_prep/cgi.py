@@ -1,4 +1,4 @@
-# comment
+# comment save in /usr/lib/cgi-bin
 import cgi
 
 form = cgi.FieldStorage()

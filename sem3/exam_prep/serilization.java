@@ -26,7 +26,7 @@ class Wr3 implements Serializable /*Mandate*/
 int Age=23;int Ht=11; int wt=65;/*Two Data Items */
 };
 
-class Wr1 extends Wr3 // implements Serializable /*Mandate*/ in both cases wr3 can get serilized  
+class Wr2 extends Wr3 // implements Serializable /*Mandate*/ in both cases wr3 can get serilized  
 {
 public static void main(String args[])
 {
