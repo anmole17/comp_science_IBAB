@@ -27,7 +27,7 @@ Thrw(Obj a1)
 {
 this.a1 = a1;
 t1=new Thread(this, "Thrower");
-System.out.println(Thread.currentThread().getName());
+System.out.println(Thread.currentThread().getName());// .getID
 System.out.println(t1.getName());
 }
 

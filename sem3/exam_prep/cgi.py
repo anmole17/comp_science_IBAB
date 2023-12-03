@@ -5,7 +5,7 @@ form = cgi.FieldStorage()
 
 num1=int(form.getvalue("num1"))
 num2=int(form.getvalue("num2"))
-
+# never print anything before Content-type : it gives error 
 print("Content-type: text/html \n\n")
 print("<html>")
 print("<body>")
