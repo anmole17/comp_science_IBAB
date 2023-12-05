@@ -1,0 +1,26 @@
+<!ELEMENT Animals (Predator, Prey, BigAnimal, SmallAnimal)>
+<!ELEMENT Predator (Predator1, Predator2, Predator3, Predator4)>
+<!ELEMENT Predator1 (Name, Country, LifeSpan, Food)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Country (#PCDATA)>
+<!ELEMENT LifeSpan (#PCDATA)>
+<!ELEMENT Food (#PCDATA)>
+<!ELEMENT Predator2 (Name, Country, LifeSpan, Food)>
+<!ELEMENT Predator3 (Name, Country, LifeSpan, Food)>
+<!ELEMENT Predator4 (Name, Country, LifeSpan, Food)>
+<!ELEMENT Prey (Prey1, Prey2, Prey3, Prey4)>
+<!ELEMENT Prey1 (Name, Country, LifeSpan, Food)>
+<!ELEMENT Prey2 (Name, Country, LifeSpan, Food)>
+<!ELEMENT Prey3 (Name, Country, LifeSpan, Food)>
+<!ELEMENT Prey4 (Name, Country, LifeSpan, Food)>
+<!ELEMENT BigAnimal (BigAnimal1, BigAnimal2, BigAnimal3, BigAnimal4)>
+<!ELEMENT BigAnimal1 (Name, Country, LifeSpan, Food)>
+<!ELEMENT BigAnimal2 (Name, Country, LifeSpan, Food)>
+<!ELEMENT BigAnimal3 (Name, Country, LifeSpan, Food)>
+<!ELEMENT BigAnimal4 (Name, Country, LifeSpan, Food)>
+<!ELEMENT SmallAnimal (SmallAnimal1, SmallAnimal2, SmallAnimal3, SmallAnimal4)>
+<!ELEMENT SmallAnimal1 (Name, Country, LifeSpan, Food)>
+<!ELEMENT SmallAnimal2 (Name, Country, LifeSpan, Food)>
+<!ELEMENT SmallAnimal3 (Name, Country, LifeSpan, Food)>
+<!ELEMENT SmallAnimal4 (Name, Country, LifeSpan, Food)>
+
